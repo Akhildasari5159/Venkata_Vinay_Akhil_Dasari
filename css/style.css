@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
 * {
-    font-family: 'Hindi', sans-serif;
+    font-family: 'Hind', sans-serif;
     scrollbar-width: none;
 }
 
@@ -78,8 +78,7 @@ body {
         display: block;
         background: linear-gradient(45deg, red, yellow, violet);
         -webkit-text-fill-color: transparent;
-        -webkit-background-: text;
-
+        -webkit-background-clip: text;
     }
 }
 
@@ -126,8 +125,7 @@ body {
 #gradientName {
     background: linear-gradient(45deg, red, yellow, violet);
     -webkit-text-fill-color: transparent;
-    -webkit-background: text;
-    
+    -webkit-background-clip: text;
 }
 
 .companyLogo {
