@@ -1,28 +1,25 @@
+html{
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+  
+  /*Additional Styling*/
+  
+  font-family: 'Lexend Deca', sans-serif;
+  width: 800px; 
+  margin: auto;
+  padding-top: 30px;
+  color: white;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
 * {
     font-family: 'Hindi', sans-serif;
     scrollbar-width: none;
 }
-
-html,
-body {
-  background-color: #DBF9FC;
-  
-  /* Additional styling starts below. */
-  
-  font-family: 'Lexend Deca', sans-serif;
-  width: 800px; 
-  margin: auto;
-  color: #2E475D;
-}
-
-table {
-  padding: 10px;
-  border-collapse: collapse;
-  width: 100%;
   text-align: left;
-}
 
 td, th {
   border: none;
